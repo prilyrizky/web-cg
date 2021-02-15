@@ -1,0 +1,86 @@
+/*DIbawah ini CSS customisasi */
+
+* {
+	box-sizing: border-box;
+}
+
+.navbar {
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(241 229 229);
+}
+
+
+
+.dropdown-menu >  a  {
+    height: 40px; 
+    width: 170px;
+    padding-top: 12px;
+    
+}
+
+
+.navbar-nav .dropdown-menu a:hover {
+    color: orange;
+    background-color: #2C3E50;
+}
+
+.navbar-nav a:hover {
+  background-color: #fff;
+}
+
+
+.navbar.scrolled {
+  background-color: #bf6e04 !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar.scrolled .nav-link {
+  color: #fff;
+}
+
+
+.jumbotron {
+    background-image: url(../images/header1a.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -40px;
+    color: #eaeaea;
+    
+}
+
+.jumbotron h1, .jumbotron p {
+    text-shadow: 1px 1px 10px;
+}
+
+
+.jumbotron .batas{
+    height: 70px;
+}
+
+#ekskul{
+    background-image: url(../images/header2b.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -40px;
+    color: #eaeaea;   
+}
+.success {
+    background-color: #eee;
+}
+
+.success .thumbnail{
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s;
+}
+
+.success .thumbnail.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+
+
